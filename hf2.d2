@@ -1,0 +1,95 @@
+vars: {
+  d2-config: {
+    layout-engine: elk
+  }
+}
+
+side-control -> half-guard: elbow escape {style.stroke: "#16A34A"}
+mount -> half-guard: trap leg in transition {style.stroke: "#16A34A"}
+close-guard -> half-guard: downgrade {style.stroke: "#DC2626"}
+half-guard -> close-guard: elbow escape / shrimp {style.stroke: "#DC2626"}
+
+half-guard -> cross-faced: loosing underhook battle {style.stroke: "#DC2626"}
+half-guard <-> high-knee-shield: {style.stroke: "#16A34A"}
+half-guard <-> low-knee-shield: {style.stroke: "#16A34A"}
+low-knee-shield <-> high-knee-shield: {style.stroke: "#16A34A"}
+half-guard -> top-half: john wayne sweep {style.stroke: "#16A34A"}
+
+cross-faced -> top-half: bride escape {style.stroke: "#16A34A"}
+cross-faced -> butterfly: failed bride escape {style.stroke: "#16A34A"}
+cross-faced -> butterfly: elbow escape {style.stroke: "#16A34A"}
+cross-faced -> underhook: lockdown {style.stroke: "#16A34A"}
+butterfly -> top-half: elevation {style.stroke: "#16A34A"}
+butterfly -> top-half: crunch {style.stroke: "#16A34A"}
+
+high-knee-shield -> underhook: pummel that underhook! {style.stroke: "#16A34A"}
+high-knee-shield -> back: arm drag {style.stroke: "#16A34A"}
+underhook: {label: "underhook 👑"}
+underhook -> dog-fight: opponent\' takes the overhook {style.stroke: "#16A34A"}
+dog-fight -> top-half: dog-fight sweep {style.stroke: "#16A34A"}
+dog-fight -> top-half: rollover sweep {style.stroke: "#16A34A"}
+underhook -> back: underhook wrestle up {style.stroke: "#16A34A"}
+
+low-knee-shield -> reverse-leg-drag: g-roll {style.stroke: "#16A34A"}
+low-knee-shield -> underhook: pummel that underhook {style.stroke: "#16A34A"}
+low-knee-shield -> back: arm drag {style.stroke: "#16A34A"}
+reverse-leg-drag -> leg-drag: wrestle up + leg-drag {style.stroke: "#16A34A"}
+leg-drag -> top-side-control: wrestle up + leg-drag {style.stroke: "#16A34A"}
+reverse-leg-drag -> back: baby-bolo {style.stroke: "#16A34A"}
+low-knee-shield -> deep-half: dive {style.stroke: "#16A34A"}
+deep-half -> x-guard: x-guard entry {style.stroke: "#16A34A"}
+x-guard -> guard-passing: x-guard sweep {style.stroke: "#16A34A"}
+
+# Orange warning position
+cross-faced.style.fill: "#FFEDD5"
+cross-faced.style.stroke: "#F97316"
+
+# Green destination positions
+back: |md
+  **Back**
+
+  Back take: +4 points
+|
+back.shape: rectangle
+back.style.fill: "#DCFCE7"
+back.style.stroke: "#16A34A"
+top-half: |md
+  **Top half**
+
+  Sweep: +2 points
+|
+top-half.shape: rectangle
+top-half.style.fill: "#DCFCE7"
+top-half.style.stroke: "#16A34A"
+top-side-control: |md
+  **Top-side control**
+
+  Guard pass: +3 points
+|
+top-side-control.shape: rectangle
+top-side-control.style.fill: "#DCFCE7"
+top-side-control.style.stroke: "#16A34A"
+
+leg-drag.shape: rectangle
+leg-drag.style.fill: "#DCFCE7"
+leg-drag.style.stroke: "#16A34A"
+leg-drag: |md
+  **Leg Drag**
+
+  Sweep: +2 points
+|
+
+guard-passing.shape: rectangle
+guard-passing.style.fill: "#DCFCE7"
+guard-passing.style.stroke: "#16A34A"
+guard-passing: |md
+  **Top position**
+
+  Sweep: +2 points
+|
+
+# Red positions
+side-control.style.fill: "#FEE2E2"
+side-control.style.stroke: "#DC2626"
+mount.style.fill: "#FEE2E2"
+mount.style.stroke: "#DC2626"
