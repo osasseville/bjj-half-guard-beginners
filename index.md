@@ -1,5 +1,7 @@
 # Half-Guard for Begingers
 
+**v1 · September 4, 2026**
+
 ![Scan this QR code to open this course](site-qr.svg)
 
 First part should be to give an understanding of somebody that never to play this position willfuly.
