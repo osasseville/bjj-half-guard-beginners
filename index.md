@@ -2,6 +2,8 @@
 
 First part should be to give an understanding of somebody that never to play this position willfuly.
 
+![Half-guard position diagram](hf2.svg)
+
 ## Playing Half Guard
  
 ### Part 1 - Entering HG as defensive position
