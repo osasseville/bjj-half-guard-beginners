@@ -27,6 +27,7 @@ First part should be to give an understanding of somebody that never to play thi
    1. Butterfly hook
    2. High knee shield
    3. Low knee shield
+   4. Lock down
 4. Half guard - downgrades
    1. Underhook + cross face
    2. Knee pointing away
