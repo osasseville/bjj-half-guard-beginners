@@ -1,6 +1,6 @@
 # Half-Guard for Beginners
 
-**v1 · September 4, 2026**
+**v1.1 · September 18, 2026**
 
 ![Scan this QR code to open this course](site-qr.svg)
 
