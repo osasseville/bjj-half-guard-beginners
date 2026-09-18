@@ -14,7 +14,7 @@ The first part should give someone who has never played this position a thorough
 
 1. Understanding what half guard is
    1. Guard is like an onion; half guard is the center
-   2. Close guard vs. half guard
+   2. Closed guard vs. half guard
    3. Trade-offs
       1. Easy to enter / easy to be forced into
       2. High skill ceiling
@@ -56,8 +56,47 @@ The first part should give someone who has never played this position a thorough
 11. The passer gets up
    1. Upgrade to closed guard
    2. Lockdown to bring them down
+   3. Lifting the near-side leg
+12. Knee-lever basics
 
-### Part 2 – Counterattacks
+### Part 2 – Happy path of HG passing
+
+1. Neutral positions
+   1. Sitting opponent
+   2. Supine opponent
+   3. Calling truce
+2. Pesky first line defences
+   1. Knee shield
+   2. Lockdown
+   3. Deep half
+   4. Underhook
+3. Top-half, the "stall" (first base)
+   1. High knee on near side
+   2. Angled knee on the far side
+   3. Low base
+   4. Chest to chest
+   5. Upper body grip!
+4. Passing position (second base)
+   1. Pin near side hip with my knee (no hip on the floor!)
+   2. Tip of toes on the far side leg (no knee on the floor)
+   3. Weak cross-face on the near side
+   4. Lateral shift
+5. Turning my opponent into a crepe (second base)
+   1. Turning the face away with the shoulder (cross-face)
+      1. Basic
+      2. Label
+      3. Scapular
+      4. Reverse cross-face
+   2. Head trap
+      1. Near-side underhook
+      2. Far-side underhook
+6. Near-passed positions
+   1. 3/4 Mount
+   2. 3/4 Side
+   3. 3/4 Sit-out
+   4. Reverse 3/4 side
+
+
 
 ### Part 3 – Setting Up Traps & Upgrades
 

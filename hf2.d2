@@ -6,17 +6,17 @@ vars: {
 
 side-control -> half-guard: elbow escape {style.stroke: "#16A34A"}
 mount -> half-guard: trap leg in transition {style.stroke: "#16A34A"}
-close-guard -> half-guard: downgrade {style.stroke: "#DC2626"}
-half-guard -> close-guard: elbow escape / shrimp {style.stroke: "#16A34A"}
+closed-guard -> half-guard: downgrade {style.stroke: "#DC2626"}
+half-guard -> closed-guard: elbow escape / shrimp {style.stroke: "#16A34A"}
 
-half-guard -> cross-faced: loosing underhook battle {style.stroke: "#DC2626"}
+half-guard -> cross-faced: losing underhook battle {style.stroke: "#DC2626"}
 half-guard <-> high-knee-shield: {style.stroke: "#16A34A"}
 half-guard <-> low-knee-shield: {style.stroke: "#16A34A"}
 low-knee-shield <-> high-knee-shield: {style.stroke: "#16A34A"}
-half-guard -> top-half: john wayne sweep {style.stroke: "#16A34A"}
+half-guard -> top-half: John Wayne sweep {style.stroke: "#16A34A"}
 
-cross-faced -> top-half: bride escape {style.stroke: "#16A34A"}
-cross-faced -> butterfly: failed bride escape {style.stroke: "#16A34A"}
+cross-faced -> top-half: bridge escape {style.stroke: "#16A34A"}
+cross-faced -> butterfly: failed bridge escape {style.stroke: "#16A34A"}
 cross-faced -> butterfly: elbow escape {style.stroke: "#16A34A"}
 cross-faced -> underhook: lockdown {style.stroke: "#16A34A"}
 butterfly -> top-half: elevation {style.stroke: "#16A34A"}
@@ -25,7 +25,7 @@ butterfly -> top-half: crunch {style.stroke: "#16A34A"}
 high-knee-shield -> underhook: pummel that underhook! {style.stroke: "#16A34A"}
 high-knee-shield -> back: arm drag {style.stroke: "#16A34A"}
 underhook: {label: "underhook 👑"}
-underhook -> dog-fight: opponent\' takes the overhook {style.stroke: "#16A34A"}
+underhook -> dog-fight: opponent takes the overhook {style.stroke: "#16A34A"}
 dog-fight -> top-half: dog-fight sweep {style.stroke: "#16A34A"}
 dog-fight -> top-half: rollover sweep {style.stroke: "#16A34A"}
 underhook -> back: underhook wrestle up {style.stroke: "#16A34A"}
@@ -40,11 +40,78 @@ low-knee-shield -> deep-half: dive {style.stroke: "#16A34A"}
 deep-half -> x-guard: x-guard entry {style.stroke: "#16A34A"}
 x-guard -> guard-passing: x-guard sweep {style.stroke: "#16A34A"}
 
+neutral -> dealing with knee-shield
+neutral -> dealing with lock-down
+neutral -> dealing with deep-half
+neutral -> dealing with underhook
+neutral -> top-half
+
+dealing with knee-shield -> top-half
+dealing with lock-down -> top-half
+dealing with deep-half -> top-half
+dealing with underhook -> top-half
+top-half -> top-passing-pos: Making my opponent flat
+
+top-passing-pos -> reverse ¾ side: Back-step
+top-passing-pos -> ¾ mount: High-tripod
+top-passing-pos -> ¾ side: Knee-cut
+top-passing-pos -> ¾ sit-out: Long-step
+reverse ¾ side <-> ¾ mount
+¾ mount <-> ¾ side
+¾ side <-> ¾ sit-out
+
+reverse ¾ side -> top-side-control
+¾ mount -> top-mount
+¾ side -> top-side-control
+¾ sit-out -> top-side-control
+
+reverse ¾ side: |md
+  **Reverse ¾ side**
+
+  Third base 🚩
+|
+¾ mount: |md
+  **¾ mount**
+
+  Third base 🚩
+|
+¾ side: |md
+  **¾ side**
+
+  Third base 🚩
+|
+¾ sit-out: |md
+  **¾ sit-out**
+
+  Third base 🚩
+|
+
+reverse ¾ side.shape: rectangle
+reverse ¾ side.style.fill: "#DBEAFE"
+reverse ¾ side.style.stroke: "#2563EB"
+¾ mount.shape: rectangle
+¾ mount.style.fill: "#DBEAFE"
+¾ mount.style.stroke: "#2563EB"
+¾ side.shape: rectangle
+¾ side.style.fill: "#DBEAFE"
+¾ side.style.stroke: "#2563EB"
+¾ sit-out.shape: rectangle
+¾ sit-out.style.fill: "#DBEAFE"
+¾ sit-out.style.stroke: "#2563EB"
+
 # Orange warning position
 cross-faced.style.fill: "#FFEDD5"
 cross-faced.style.stroke: "#F97316"
 
 # Green destination positions
+top-mount: |md
+  **Top mount**
+
+  +3 points
+|
+top-mount.shape: rectangle
+top-mount.style.fill: "#DCFCE7"
+top-mount.style.stroke: "#16A34A"
 back: |md
   **Back**
 
@@ -56,11 +123,19 @@ back.style.stroke: "#16A34A"
 top-half: |md
   **Top half**
 
-  Sweep: +2 points
+  First base 🚩
 |
 top-half.shape: rectangle
 top-half.style.fill: "#DCFCE7"
 top-half.style.stroke: "#16A34A"
+top-passing-pos: |md
+  **Top passing position**
+
+  Second base 🚩
+|
+top-passing-pos.shape: rectangle
+top-passing-pos.style.fill: "#DCFCE7"
+top-passing-pos.style.stroke: "#16A34A"
 top-side-control: |md
   **Top-side control**
 
